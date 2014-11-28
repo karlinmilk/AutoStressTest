@@ -1,4 +1,4 @@
 AutoStressTest
 ==============
 
-Stress test for reboot dial 
+This ia a stress test tool for rebooting and dialing 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoStressTest</string>
+    <string name="tool_version">Version: </string>
+    <string name="stop">Stop</string>
+    <string name="reboot_test">Auto Reboot Test</string>
+    <string name="mo_test">MO Call Test</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="all_test">All Test(Reboot and MO Call)</string>
+    <string name="start">Start</string>
+
+    <string name="cfg_ver_reset">The configuration version does not match, restore settings to default</string>
+    <string name="cfg_reset">Unable to load configuration, restore settings to default</string>
+</resources>

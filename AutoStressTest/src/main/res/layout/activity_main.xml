@@ -1,0 +1,49 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <PreferenceCategory android:key="reboot_test"
+            android:title="@string/reboot_test"
+            android:layout="@layout/pereference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <PreferenceScreen
+                android:key="start_reboot"
+                android:title="@string/start"
+                android:icon="@drawable/playicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </PreferenceScreen>
+		</PreferenceCategory>
+		<PreferenceCategory android:key="mo_test"
+            android:title="@string/mo_test"
+            android:layout="@layout/pereference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditTextPreference android:key="phone_number"
+            android:title="@string/phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <PreferenceScreen
+                android:key="start_mo"
+                android:title="@string/start"
+                android:icon="@drawable/playicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </PreferenceScreen>
+		</PreferenceCategory>
+		<PreferenceCategory android:key="all_test"
+            android:title="@string/all_test"
+            android:layout="@layout/pereference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <PreferenceScreen
+                android:key="start_all"
+                android:title="@string/start"
+                android:icon="@drawable/playicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </PreferenceScreen>
+		</PreferenceCategory>
+</PreferenceScreen>
+

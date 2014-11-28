@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="test_items">
+      	<item>Reboot30secTest</item>
+        <item>Reboot2minTest</item>
+        <item>Reboot5minTest</item>
+        <item>Reboot10minTest</item>
+        <item>MO1minTest</item>
+        <item>MO2minTest</item>
+    </string-array>
+</resources>
